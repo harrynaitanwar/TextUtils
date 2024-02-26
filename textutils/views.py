@@ -9,9 +9,9 @@ def index(request):
 def removepunc(request):
     return HttpResponse("remove punc")
 
-def capfirst(request):
+def CAPitalfirst(request):
     return HttpResponse("capitalize first")
-def newlinerremove(request):
+def Newlinerremovesremove(request):
     return HttpResponse("newlinerremove")
 def spaceremove(request):
     return HttpResponse("Space remover")
