@@ -11,7 +11,9 @@ def removepunc(request):
 
 def CAPitalfirst(request):
     return HttpResponse("capitalize first")
-def Newlinerremovesremove(request):
+def caplast(request):
+    return HttpResponse("capitalize first")
+def newlineremove(request):
     return HttpResponse("newlinerremove")
 def spaceremove(request):
     return HttpResponse("Space remover")
